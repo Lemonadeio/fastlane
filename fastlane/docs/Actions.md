@@ -2053,6 +2053,22 @@ jira(
 )
 ```
 
+### [Pushover](https://pushover.net)
+
+Send a push notification to any of your devices via Pushover.
+
+```ruby
+notify_with_pushover(
+  api_token: "Your token from https://pushover.net",
+  user_key: "Your user key from https://pushover.net",
+  title: "Notification Title",
+  message: "Notification message"
+)
+```
+
+To obtain a token, register devices, and setup a custom app for your notifications, go to
+[Pushover](https://pushover.net/apps/build).
+
 ## Other
 
 ### update_fastlane
